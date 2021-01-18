@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51270" started-at="2019-08-24T08:00:35Z" finished-at="2019-08-24T08:01:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51270" started-at="2019-08-24T08:00:35Z" finished-at="2019-08-24T08:01:26Z">
+      <class name="com.ebay.testcases.registrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="setUp" is-config="true" duration-ms="4257" started-at="2019-08-24T04:00:36Z" finished-at="2019-08-24T04:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="registrationPageTest" duration-ms="6002" started-at="2019-08-24T04:00:40Z" data-provider="getTestData" finished-at="2019-08-24T04:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Imtiaz1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sikder1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iusikder@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[isssimti1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-24T04:00:46Z" finished-at="2019-08-24T04:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="setUp" is-config="true" duration-ms="4680" started-at="2019-08-24T04:00:46Z" finished-at="2019-08-24T04:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="registrationPageTest" duration-ms="5963" started-at="2019-08-24T04:00:51Z" data-provider="getTestData" finished-at="2019-08-24T04:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Imtiaz2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sikder2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iusikder@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[isssimti2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-24T04:00:57Z" finished-at="2019-08-24T04:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="setUp" is-config="true" duration-ms="4685" started-at="2019-08-24T04:00:57Z" finished-at="2019-08-24T04:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="registrationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="registrationPageTest" duration-ms="17175" started-at="2019-08-24T04:01:02Z" data-provider="getTestData" finished-at="2019-08-24T04:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Imtiaz3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sikder3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iusikder@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[isssimti3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.ebay.testcases.registrationTest.registrationPageTest(registrationTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-24T04:01:19Z" finished-at="2019-08-24T04:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="setUp" is-config="true" duration-ms="4360" started-at="2019-08-24T04:01:19Z" finished-at="2019-08-24T04:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="registrationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="registrationPageTest" duration-ms="3284" started-at="2019-08-24T04:01:23Z" data-provider="getTestData" finished-at="2019-08-24T04:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Imtiaz4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sikder4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iusikder@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[isssimti4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.ebay.testcases.registrationTest.registrationPageTest(registrationTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.testcases.registrationTest@31dc339b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-24T04:01:26Z" finished-at="2019-08-24T04:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.testcases.registrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
